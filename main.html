@@ -1,16 +1,60 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
+<style>
+    body {
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    img {
+        width: 70%;
+        height: 100%;
+        object-fit: cover;
+        padding: 10px;
+    }
+
+    .explore {
+        text-align: center;
+
+    }
+
+    button {
+        background-color: red;
+        padding: 7px 12px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+</style>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="hero">
+        <img src="https://images.pexels.com/photos/2662116/pexels-photo-2662116.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="hero-image">
 
+        <div class="explore">
+            <h1>Welcome to my Pinterest clone</h1>
+            <p>Discover new inspiration and save your favorite ideas</p>
+            <button>Explore new</button>
+        </div>
+    </div>
 </body>
 
 </html>
